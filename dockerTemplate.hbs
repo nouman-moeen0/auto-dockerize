@@ -1,0 +1,26 @@
+FROM {{parentLayer}}
+
+
+ {{#each ENV}}
+ ARG {{this}}
+{{/each}}
+
+
+ {{#each ENV}}
+ ENV {{this}} ${{this}}
+{{/each}}
+                    
+                   
+
+WORKDIR {{workingDir}}
+
+
+COPY {{copyTarget}}
+
+
+RUN  {{command}}
+
+
+EXPOSE {{exposedPort}}
+
+CMD ["npm","start"]

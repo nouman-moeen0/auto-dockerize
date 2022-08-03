@@ -1,0 +1,27 @@
+{
+  "name": "auto-dockerize",
+  "version": "0.1.0",
+  "description": "Dockerize your project using a simple command",
+  "main": "plopfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate": "plop"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nouman-moeen0/auto-dockerize.git"
+  },
+  "keywords": [
+    "plop",
+    "handlebars"
+  ],
+  "author": "nouman_moeen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nouman-moeen0/auto-dockerize/issues"
+  },
+  "homepage": "https://github.com/nouman-moeen0/auto-dockerize#readme",
+  "dependencies": {
+    "plop": "^3.1.1"
+  }
+}
